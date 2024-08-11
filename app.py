@@ -5,7 +5,7 @@ import pytesseract  # Importa pytesseract para realizar OCR (Reconhecimento Ópt
 import re  # Importa o módulo re para expressões regulares
 
 # Define o caminho para o executável do Tesseract, necessário se o caminho não estiver no PATH do sistema
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Cria uma instância do aplicativo Flask
 app = Flask(__name__)
