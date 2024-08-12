@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: sh install.sh && gunicorn app:app
